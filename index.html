@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&family=Open+Sans&family=Space+Mono&display=swap" rel="stylesheet">
+    <link media="all" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+   <!--header section start-->
+   <section class="header">
+       <nav>
+           <h1 class="jr"><a href="index.html">JR</a></h1>
+           <div class="nav-links">
+               <ul>
+                   <li><a href="#about-id"><span class="nav-num">01. </span>About</a></li>
+                   <li><a href="#exp-id"><span class="nav-num">02. </span>Experience</a></li>
+                   <li><a href="#work-id"><span class="nav-num">03. </span>Work</a></li>
+                   <li><a href="#contact-id"><span class="nav-num">04. </span>Contact</a></li>
+                   <li>
+                      <a href="resume.html" target="_blank" class="cv-button">CV</a>
+                   </li>
+               </ul>
+           </div>
+       </nav>
+       <div class="intro-text">
+            <h6>Hi, my name is</h6>
+            <h1>Jihaad Roberts<br><span>Front End Developer</span></h1>
+            
+            <p>I’m a <span class="job-title">front-end developer</span> specializing in implementing<br> (and occasionally designing) <span class="ewb">exceptional web designs</span><br>
+                to provide the best user experiences.</p>
+       </div>
+       <div class="gmail-div">
+            <a href="mailto:jihaadroberts@gmail.com" target="_blank"><h1 class="my-gmail">jihaadroberts@gmail.com</h1></a>
+            <div class="gmail-line"></div>
+       </div>
+       <div class="icons-div">
+            <div class="my-social-menu">
+                <ul>
+                    <li><a href="https://www.instagram.com/mr_roberts22/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/josh.obrien.98622/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+            </div>
+            <div class="social-icons-line">d</div>
+       </div>
+   </section>
+   <!--header section end-->
+
+   <!--about section start-->
+   <section class="about-section" id="about-id">
+       <div class="about-header">
+           <h2><span>01. </span>About Me</h2>
+           <div class="about-line"></div>
+       </div>
+       <div class="about-info-div">
+           <div class="about-info-holder">
+               <p>Hi, my name is Jihaad and I love to implement<br> <span>exceptional looking web designs.</span>
+                 My interest<br> in <span>web development</span> or coding in general started<br> by writing a single line of
+                 C# code in unity<br>(made a block move), C# somehow led to <span>HTML</span> and<br> naturally <span>CSS</span> and inevitably <span>Javascript</span>
+               </p>
+               <br>
+               <p>
+                Today, i've had the privilege of working(taken<br> in and nurtured) at a <span>small software and<br> photo editing company
+                    called "Kaotec"</span>. My main<br> focus these days is just me freelancing my web<br> development skills by either coding<br> from
+                scratch or using <span>WordPress</span> with the<br> occasional <span>graphic design</span> gig using <span>PhotoShop.</span>
+               </p>
+               <br>
+               <p>I also recently developed an android game<br> called <a href="https://play.google.com/store/apps/details?id=com.EnigmaGaming.SkyHigh&gl=ZA" target="_blank"><span>"Sky High"</span></a> currently available on PlayStore</p>
+               <br>
+               <p>Here are some of the technologies that I use:</p>
+
+               <div class="tech-div">
+                   <div class="tech-list-left">
+                       <ul>
+                           <li>HTML</li>
+                           <li>CSS</li>
+                           <li>Javascript</li>
+                       </ul>
+                   </div>
+
+                   <div class="tech-list-right">
+                       <ul>
+                           <li>Bootstrap</li>
+                           <li>Jquery</li>
+                           <li>WordPress</li>
+                       </ul>
+                   </div>
+               </div>
+               
+           </div>
+
+           <div class="my-pic">
+               
+           </div>
+       </div>
+       
+
+   </section>
+   <!--about section end-->
+
+   <!--worked section start-->
+   <section class="worked-section" id="exp-id">
+      <div class="worked-header">
+          <h2><span>02. </span>Where I've worked</h2>
+          <div class="worked-line"></div>
+      </div>
+      <div class="jobs-section">
+        <div class="jobs-list-div">
+            <ul class="jobs-list">
+                <li class="current-job-selected" id="freelance-button" onclick="stateOne()">Freelance</li>
+                <li class="default-state" id="kaotec-button" onclick="stateTwo()" onclick="stateTwoInfo()">Kaotec</li>
+                <li class="default-state" id="cafe-button" onclick="stateThree()">Cafe</li>
+                <li class="default-state" id="revelation-audio-button" onclick="stateFour()">RA</li>
+                <li class="default-state" id="jumbo-parts-button" onclick="stateFive()">Jumbo Parts</li>
+            </ul>
+        </div>
+        <!--break-->
+        <div class="freelance-container" id="f-container">
+
+            <div class="freelance-info-div" id="freelance-selected">
+                <h1>Freelance <span>@Home</span></h1>
+                <h3>Time Period</h3>
+    
+                <ul class="freelance-list">
+                    <li class="point-one">Designing and developing websites of all types of brands and businesses</li>
+                    <li class="point-two">Design and develop websites using a variety of different languages, platforms, frameworks, such as HTML, CSS, JavaScript, Bootstrap and WordPress</li>
+                    <li class="point-three">Odd graphic design jobs like logos, email signatures etc...</li>
+                </ul>
+            </div>
+
+        </div>
+        
+        <!--break-->
+        <div class="kaotec-container" id="k-container">
+
+            <div class="kaotec-info-div" id="kaotec-selected">
+                <h1>Programmar and Photo Editor<span>@Kaotec</span></h1>
+                <h3>Time Period</h3>
+    
+                <ul class="kaotec-list">
+                    <li class="point-one">Maintained and added code for major features of the pre-existing software at the company</li>
+                    <li class="point-two">Worked on a team with another developer to brainstorm new ideas for the company</li>
+                    <li class="point-three">Retouched real estate images for international clients using Adobe PhotoShop</li>
+                </ul>
+            </div>
+
+        </div>
+        
+        <!--break-->
+        <div class="cafe-container" id="c-container">
+
+            <div class="cafe-info-div" id="cafe-selected">
+                <h1>Waiter <span>@Cafe Classique</span></h1>
+                <h3>Time Period</h3>
+    
+                <ul class="cafe-list">
+                    <li class="point-one">Waited on tables</li>
+                    <li class="point-two">Occasionally worked as a cashier</li>
+                    <li class="point-three">Occasionally washed dishes</li>
+                </ul>
+            </div>
+
+        </div>
+       
+        <!--break-->
+        <div class="revelation-container" id="r-container">
+
+            <div class="revelation-info-div" id="revelation-selected">
+                <h1>Installer Assistant <span>@Revelation Audio</span></h1>
+                <h3>Time Period</h3>
+    
+                <ul class="revelation-list">
+                    <li class="point-one">Job included the carrying of tools to various locations on site</li>
+                    <li class="point-two">Drilling through walls for cables whenever it was required</li>
+                    <li class="point-three">Gluing wires and the daily after work stock take</li>
+                </ul>
+            </div>
+
+        </div>
+       
+        <!--break-->
+        <div class="jumbo-container" id="j-container">
+
+            <div class="jumbo-parts-info-div" id="jumbo-selected">
+                <h1>Mechanic Assistane <span>@Jumbo Parts</span></h1>
+                <h3>Time Period</h3>
+    
+                <ul class="jumbo-parts-list">
+                    <li class="point-one">Job mostly included the daily stripping of car parts</li>
+                    <li class="point-two">Carrying and sorting of tools</li>
+                    <li class="point-three">Occasional stock take</li>
+                </ul>
+            </div>
+
+        </div>
+        
+    </div>
+    
+   </section>
+   <!--worked section end-->
+
+   <!--built section start-->
+   <section class="built-section" id="work-id">
+       <div class="built-header">
+           <h2><span>03. </span>Some Things I've built</h2>
+           <div class="built-line"></div>
+       </div>
+
+       <!--reusable code section start-->
+       <div class="leftnright-div">
+           <a href="interior.html" target="_blank">
+              <div class="left-div-one"></div>
+           </a>
+
+           <div class="right-div-one">
+               <h5>Featured Project</h5>
+               <h1>Interior Design Website</h1>
+               <div class="interior-text-div">
+                   <p>
+                       A modern elegant looking interior
+                        design website mean't to give the clients a high quality feel at first glance.
+                   </p>
+               </div>
+               <div class="interior-text-div-list">
+                   <ul>
+                       <li>HTML </li>
+                       <li>CSS</li>
+                       <li>Javascript</li>
+                       
+                   </ul>
+               </div>
+               <div class="interior-icon-div">
+                   <ul>
+                       <!--
+                       <li>Icon One</li>
+                       <li>Icon Two</li>
+                       -->
+                   </ul>
+               </div>
+           </div>
+       </div>
+       <!--reusable code section break-->
+       <div class="leftnright-div-mirror">
+       
+        <div class="right-div-one-mirror">
+            <h5>Featured Project</h5>
+            <h1>Coffee Shop Website</h1>
+            <div class="interior-text-div-mirror">
+                <p>
+                    A professional yet cosy web design to give the customer an impression that is warm and inviting
+                </p>
+            </div>
+            <div class="interior-text-div-list-mirror">
+                <ul>
+                    <li>HTML </li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
+            <div class="interior-icon-div-mirror">
+                <ul>
+                    <!--
+                    <li>Icon One</li>
+                    <li>Icon Two</li>
+                    -->
+                </ul>
+            </div>
+        </div>
+        <a href="coffee.html" target="_blank">
+            <div class="left-div-one-mirror"></div>
+        </a>
+        
+    </div>
+    <!--code break-->
+    <div class="leftnright-div">
+        <a href="https://grabamindful.com/" target="_blank">
+            <div class="left-div-one-2"></div>
+        </a>
+        
+        <div class="right-div-one-two">
+            <h5>Featured Project</h5>
+            <h1>Mental and Physical Health <br>Blog Website</h1>
+            <div class="interior-text-div">
+                <p>
+                    A soft yet inviting web design to give readers an impression that healing and learning takes place on this site.
+                </p>
+            </div>
+            <div class="interior-text-div-list-two">
+                <ul>
+                    <li>WordPress</li>
+                    <li>MailChimp</li>
+                    <li>Astra Theme</li>
+                </ul>
+            </div>
+            <div class="interior-icon-div">
+                <ul>
+                    <!--
+                    <li>Icon One</li>
+                    <li>Icon Two</li>
+                    -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--code break-->
+    <div class="leftnright-div-mirror">
+       
+        <div class="right-div-one-mirror">
+            <h5>Featured Project</h5>
+            <h1>Film Production Website</h1>
+            <div class="interior-text-div-mirror">
+                <p>
+                    A professional looking portfolio style website that 
+                    allows clients to immediately understand the quality of work done by the company
+                </p>
+            </div>
+            <div class="interior-text-div-list-mirror">
+                <ul>
+                    <li>WordPress</li>
+                    <li>PhotoShop</li>
+                    <li>Astra Theme</li>
+                </ul>
+            </div>
+            <div class="interior-icon-div-mirror">
+                <ul>
+                    <!--
+                    <li>Icon One</li>
+                    <li>Icon Two</li>
+                    -->
+                </ul>
+            </div>
+        </div>
+        <a href="https://barnesgrxphstudios.com/" target="_blank"><div class="left-div-one-mirror-2"></div></a>
+    </div>
+
+    <div class="show-more-div">
+        <a class="show-more">Show More</a>
+    </div>
+   </section>
+   <!--built section end-->
+
+   <!--contact section start-->
+   <section class="contact-section" id="contact-id">
+       <h2>04. What's Next?</h2>
+       <h1>Get In Touch</h1>
+       <p>I am currently available to consider/accept any job opportunities<br> that may come my way, so feel free to leave a message!</p>
+       <a href="mailto:jihaadroberts@gmail.com" target="_blank">Say Hello</a>
+
+       <div class="footer">
+           <h5>Designed by Brittany Chiang | Built by Jihaad Roberts</h5>
+       </div>
+   </section>
+   <!--contact section end-->
+</body>
+</html>

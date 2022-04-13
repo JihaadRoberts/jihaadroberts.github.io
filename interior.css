@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Header Section Start*/
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.nav-div{
+    position: sticky;
+    width: 100%;
+    z-index: 2;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    background-color: white;
+}
+
+nav a{
+    padding: 30px 18px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-img{
+    height: 480px;
+    width: 730px;
+    position: relative;
+    left: 160px;
+    overflow: hidden;
+}
+
+.info-block h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-img img{
+    height: 100%;
+}
+
+.info-block{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(199, 198, 198);
+    position: absolute;
+    top: 300px;
+    right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dec-block{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(181, 205, 224);
+    position: absolute;
+    top: 200px;
+    right: 290px;
+}
+
+.three-dots{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 325px;
+    top: 570px;
+    width: 6%;
+}
+
+.dot-one, .dot-two, .dot-three{
+    height: 15px;
+    width: 15px;
+    background-color: lightgray;;
+    border-radius: 50%;
+}
+
+.quote{
+    text-align: center;
+    margin-top: 2.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Header Section End*/
+
+/*Services Section Start*/
+.services-header{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.services-info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+
+.left-info, .right-info{
+    height: 550px;
+    width: 550px;
+    /*Remember relative positioning is vital in this scenario*/
+    position: relative;
+    overflow: hidden;
+}
+
+.left-info{
+    left: 30px;
+}
+
+.right-info{
+    right: 30px;
+}
+
+.right-img{
+    height: 100%;
+    position: relative;
+    right: 450px;
+}
+
+.left-img{
+    height: 100%;
+    position: relative;
+    right: 500px;
+}
+
+.right-color{
+    background-color: rgb(73, 92, 102);
+}
+
+.left-color{
+    background-color: rgb(72, 110, 72);
+}
+
+.layer{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    opacity: 1;
+}
+
+.layer ul{
+    position: relative;
+    left: 70px;
+    top: 100px;
+    color: white;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-piece-div{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.text-piece{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.service-names{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.architecture{
+    position: relative;
+    right: 40px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.interior{
+    position: relative;
+    left: 25px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Services Section End*/
+
+/*About Us Section Start*/
+.about-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 6%;
+    padding: 70px 0px;
+    background-color: rgb(238, 234, 234);
+}
+
+.about-right h1{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.about-right p{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-right{
+    text-align: left;
+    width: 500px;
+    position: relative;
+    bottom: 25px;
+}
+
+.about-left{
+    height: 220px;
+    width: 350px;
+    background-color: rgb(95, 107, 76);
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+.about-left-div{
+    height: 310px;
+    width: 350px;
+    overflow: hidden;
+    position: relative;
+    right: 60px;
+    bottom: 50px;
+}
+
+.about-left-img{
+    width: 100%;
+}
+/*About Us Section End*/
+
+/*Contact Section Start*/
+.contact-section h1, .contact-section h5{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-section form{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.enter-name, .enter-email, .enter-number{
+    position: relative;
+    right: 10px;
+    padding: 3px;
+    padding-right: 400px;
+    font-size: 15px;
+    background-color: rgb(238, 234, 234);
+    border: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.enter-message{
+    position: relative;
+    top: 2px;
+    left: 20px;
+    padding: 3px;
+    font-size: 15px;
+    background-color: rgb(238, 234, 234);
+    border: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Contact Section End*/
+
+/*Footer Section Start*/
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    border-top: 0.5px solid black;
+    padding-top: 30px;
+}
+
+.div-header{
+    margin-bottom: 20px;
+}
+
+.footer-info h4, .footer-info h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-ending h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 18px;
+    font-size: 30px;
+}
+
+.footer-ending p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+.footer-ending{
+    margin-top: 5%;
+    padding: 50px 0;
+    background-color: rgb(238, 234, 234);
+}
+/*Footer Section End*/

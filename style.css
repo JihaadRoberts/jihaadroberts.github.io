@@ -1,0 +1,966 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+    overflow-x: hidden;
+}
+
+/*header section start*/
+.header{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color:rgb(13, 240, 228);
+    font-family: 'Space Mono', monospace;
+}
+
+.jr{
+    border: 1px solid rgb(13, 240, 228);
+    padding: 10px 12px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 10px;
+    left: 35px;
+}
+
+.jr:hover{
+    border: 1px solid rgb(13, 240, 228);
+    padding: 10px 12px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 10px;
+    left: 35px;
+    background-color: rgba(13, 240, 229, 0.1);
+}
+
+.jr a{
+    color: rgb(13, 240, 228);
+}
+
+.cv-button{
+    border: 1px solid rgb(13, 240, 228);
+    padding: 11px 20px;
+    border-radius: 4px;
+    color: rgb(13, 240, 228);
+}
+
+.cv-button:hover{
+    border: 1px solid rgb(13, 240, 228);
+    padding: 11px 20px;
+    border-radius: 4px;
+    color: rgb(13, 240, 228);
+    background-color: rgba(13, 240, 229, 0.1);
+    cursor: pointer;
+}
+
+.nav-links ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    position: relative;
+    right: 30px;
+}
+
+.nav-num{
+    color: rgb(13, 240, 228);
+}
+
+.intro-text{
+    display: inline-block;
+    position: relative;
+    left: 190px;
+    top: 65px;
+}
+
+.intro-text h6{
+    color: rgb(13, 240, 228);
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+}
+
+.intro-text h1{
+    font-size: 70px;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    line-height: 75px;
+    padding: 15px 0px;
+}
+
+.intro-text h1 span{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.intro-text p{
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+.gmail-div{
+    position: fixed;
+    right: 70px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.my-gmail{
+    color: white;
+    writing-mode: vertical-rl;
+    text-orientation: 'sideways';
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Space Mono', monospace;
+    position: relative;
+    transition: 0.5s;
+}
+
+.gmail-div a{
+    text-decoration: none;
+}
+
+.my-gmail:hover{
+    color: rgb(13, 240, 228);
+    writing-mode: vertical-rl;
+    text-orientation: 'sideways';
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Space Mono', monospace;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+}
+
+.gmail-line{
+    height: 100px;
+    width: 0px;
+    border-left: 1px solid rgb(13, 240, 228);
+    color: rgba(1, 1, 1, 0);
+    position: relative;
+    left: 7px;
+    top: 10px;
+}
+
+.icons-div{
+    position: fixed;
+    left: 70px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.my-social-menu{
+    position: relative;;
+    left: 1px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.my-social-menu li{
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.my-social-menu ul li .fa{
+    font-size: 22px;
+    color: white;
+    transition: 0.2s;
+}
+
+.my-social-menu ul li .fa:hover{
+    transform: translate(0, -5px);
+    color: rgb(13, 240, 228);
+}
+
+.social-icons-line{
+    height: 100px;
+    width: 0px;
+    border-left: 1px solid rgb(13, 240, 228);
+    color: rgba(1, 1, 1, 0);
+    position: relative;
+    left: 7px;
+    top: 10px;
+}
+
+.job-title, .ewb{
+    color: rgb(13, 240, 228);
+}
+/*header section end*/
+
+/*about section start*/
+.about-section{
+    height: 100vh;
+    width: 80%;
+    background-color: rgb(20, 20, 20);
+    padding-bottom: 13%;
+    position: relative;
+    left: 50px;
+}
+
+.about-header{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 190px;
+    width: 600px;
+    margin-bottom: 3%;
+}
+
+.about-info-holder span{
+    color:rgb(13, 240, 228);
+}
+
+.about-info-holder a{
+    text-decoration: none;
+    border-bottom: 1px solid rgb(13, 240, 228);
+}
+
+.about-header h2{
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+.about-line{
+    height: 20px;
+    width: 300px;
+    border-bottom: 1px solid rgb(13, 240, 228);
+    color: rgba(1, 1, 1, 0);
+    position: relative;
+    left: 5px;
+    
+}
+
+.about-info-div{
+    display: flex;
+}
+
+.about-header span{
+    color: rgb(13, 240, 228);
+}
+
+.about-info-holder{
+    position: relative;
+    left: 190px;
+}
+
+.about-info-holder p{
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+.tech-div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+    margin-top: 4%;
+    position: relative;
+    right: 40px;
+}
+
+.tech-list-left ul, .tech-list-right ul{
+    list-style: none;
+}
+
+.tech-list-left ul li::before, .tech-list-right ul li::before{
+    content: "•"; 
+    color: rgb(13, 240, 228);
+    margin-right: 5px;
+}
+
+.tech-div ul li{
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+}
+
+.my-pic{
+    position: relative;
+    left: 300px;
+    height: 350px;
+    width: 350px;
+    border: 1px solid rgb(13, 240, 228);
+    overflow: hidden;
+    background: linear-gradient(rgba(13, 240, 229, 0.5), rgba(13, 240, 228, 0.5)), url("Images/IMG-20220408-WA0003.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.my-pic:hover{
+    position: relative;
+    left: 250px;
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgb(13, 240, 228);
+    overflow: hidden;
+    background: linear-gradient(rgba(13, 240, 228, 0), rgba(13, 240, 228, 0)), url("Images/IMG-20220408-WA0003.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*about section end*/
+
+/*worked section start*/
+.worked-section{
+    min-height: 100vh;
+    width: 70%;
+    background-color: rgb(20, 20, 20);
+    position: relative; 
+    left: 170px; 
+}
+
+.worked-header{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 130px;
+    width: 700px;
+    margin-bottom: 3%;
+}
+
+.worked-header h2{
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+.worked-line{
+    height: 20px;
+    width: 300px;
+    border-bottom: 1px solid rgb(13, 240, 228);
+    color: rgba(1, 1, 1, 0);
+    position: relative;
+    left: 5px;
+}
+
+.jobs-list-div{
+    position: relative;
+    left: 240px;
+    z-index: 2;
+}
+
+.jobs-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.jobs-list li{ 
+    padding: 13px 18px;
+    width: 110px;
+    list-style: none;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    cursor: pointer;
+}
+
+.default-state{
+    border-left: 1px solid white;
+    cursor: pointer;
+}
+
+/*freelance inner section start*/
+.freelance-info-div{
+    position: absolute;
+    left: 548px;
+    height: 290px;
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.freelance-info-div h1{
+    font-size: 20px;
+    color: white;
+}
+
+.freelance-info-div h1 span{
+    color:rgb(13, 240, 228);
+}
+
+.freelance-info-div h3{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 4%;
+}
+
+.freelance-list{
+    position: relative;
+    left: 20px;
+}
+
+.freelance-list .point-one, .freelance-list .point-two{
+    margin-bottom: 3%;
+}
+/*freelance inner section end*/
+
+/*kaotec inner section start*/
+.kaotec-info-div{
+    position: absolute;
+    left: 548px;
+    height: 290px;
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*experiment*/
+.experiment{
+    position: absolute;
+    left: 548px;
+    height: 290px;
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+    visibility: hidden;
+}
+/*experiment*/
+
+/*kaotec state change section*/
+.worked-state-change{
+    position: absolute;
+    left: 548px;
+    height: 290px;
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+}
+/*kaotec state change section*/
+
+.kaotec-info-div h1{
+    font-size: 20px;
+    color: white;
+}
+
+.kaotec-info-div h1 span{
+    color:rgb(13, 240, 228);
+}
+
+.kaotec-info-div h3{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 4%;
+}
+
+.kaotec-list{
+    position: relative;
+    left: 20px;
+}
+
+.kaotec-list .point-two{
+    margin-bottom: 3%;
+}
+/*kaotec inner section end*/
+
+/*cafe inner section start*/
+.cafe-info-div{
+    position: absolute;
+    left: 548px;
+    height: 290px;
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cafe-info-div h1{
+    font-size: 20px;
+    color: white;
+}
+
+.cafe-info-div h1 span{
+    color:rgb(13, 240, 228);
+}
+
+.cafe-info-div h3{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 4%;
+}
+
+.cafe-list{
+    position: relative;
+    left: 20px;
+}
+
+.cafe-list .point-one, .cafe-list .point-two{
+    margin-bottom: 3%;
+}
+/*cafe inner section end*/
+
+/*revelation inner section start*/
+.revelation-info-div{
+    position: absolute;
+    left: 548px;
+    height: 290px;
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+    /*The one that is slightly to the left*/
+}
+
+.revelation-info-div h1{
+    font-size: 20px;
+    color: white;
+}
+
+.revelation-info-div h1 span{
+    color:rgb(13, 240, 228);
+}
+
+.revelation-info-div h3{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 4%;
+}
+
+.revelation-list{
+    position: relative;
+    left: 20px;
+}
+
+.revelation-list .point-one, .revelation-list .point-two{
+    margin-bottom: 3%;
+}
+/*revelation inner section end*/
+
+/*jumbo parts inner section start*/
+.jumbo-parts-info-div{
+    position: absolute;
+    left: 548px;
+    height: 290px;
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jumbo-parts-info-div h1{
+    font-size: 20px;
+    color: white;
+}
+
+.jumbo-parts-info-div h1 span{
+    color:rgb(13, 240, 228);
+}
+
+.jumbo-parts-info-div h3{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 4%;
+}
+
+.jumbo-parts-list{
+    position: relative;
+    left: 20px;
+}
+
+.jumbo-parts-list .point-one, .jumbo-parts-list .point-two{
+    margin-bottom: 3%;
+}
+/*jumbo parts inner section end*/
+
+.jobs-section ul{
+    color: white;
+}
+
+.jobs-section{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 220px;
+}
+
+.jobs-info-div h1{
+    color: white;
+}
+
+.jobs-list .current-job-selected{
+    color: rgb(13, 240, 228);
+    border-left: 1px solid rgb(13, 240, 228);
+    background-color: rgba(233, 225, 225, 0.1);
+}
+/*sub worked section start*/
+.freelance-container{
+    visibility: visible;
+}
+
+.kaotec-container{
+    visibility: hidden;
+}
+
+.cafe-container{
+    visibility: hidden;
+}
+
+.revelation-container{
+    visibility: hidden;
+}
+
+.jumbo-container{
+    visibility: hidden;
+}
+
+.visible-container{
+    visibility: visible;
+}
+
+.hidden-container{
+    visibility: hidden;
+}
+/*sub worked section end*/
+
+/*worked section end*/
+
+/*built section start*/
+.built-section{
+    min-height: 320vh;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    position: relative;
+    left: 0px;
+}
+
+.built-header{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 190px;
+    width: 700px;
+    margin-bottom: 3%;
+}
+
+.built-header h2{
+    color: white;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 8%;
+}
+
+.built-line{
+    height: 20px;
+    width: 300px;
+    border-bottom: 1px solid rgb(13, 240, 228);
+    color: rgba(1, 1, 1, 0);
+    position: relative;
+    left: 5px;
+}
+
+.leftnright-div{
+    display: flex;
+    width: 80%;
+    position: relative;
+    left: 150px;
+    margin-bottom: 10%;
+}
+
+.right-div-one{
+    position: relative;
+    top: 15px;
+}
+
+.left-div-one{
+    background: linear-gradient(rgba(13, 240, 229, 0.6), rgba(13, 240, 229, 0.6)), url("Images/Website\ 5.png");
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 725px;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+.left-div-one:hover{
+    background: linear-gradient(rgba(218, 19, 19, 0), rgba(218, 19, 19, 0)), url("Images/Website\ 5.png");
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(13, 240, 228);
+    cursor: pointer;
+}
+
+.right-div-one h5, .right-div-one-two h5{
+    color: rgb(13, 240, 228);
+    text-align: right;
+    position: relative;
+    right: 60px;
+    font-size: 15px;
+    font-family: 'Space Mono', monospace;
+}
+
+.right-div-one h1{
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    padding: 15px;
+    position: relative;
+    left: 50px;
+}
+
+.right-div-one-two h1{
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    padding: 15px;
+    position: relative;
+    left: 10px;
+}
+
+.interior-text-div p{
+    color: white;
+    font-family: 'Space Mono', monospace;
+    width: 85%;
+    height: 85%;
+}
+
+.interior-text-div{
+    height: 150px;
+    width: 400px;
+    background-color: rgb(32, 32, 36);
+    position: relative;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interior-text-div-list ul{
+    display: flex;
+    position: relative;
+    left: 110px;
+}
+
+.interior-text-div-list-two ul{
+    display: flex;
+    position: relative;
+}
+
+.interior-icon-div ul{
+    display: flex;
+    position: relative;
+    left: 150px;
+}
+
+.interior-text-div-list ul li, .interior-text-div-list-two ul li{
+    list-style: none;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    padding: 5px 15px;
+}
+
+.interior-icon-div ul li{
+    list-style: none;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    padding: 5px 15px;
+}
+/*code break section*/
+.leftnright-div-mirror{
+    display: flex;
+    width: 80%;
+    position: relative;
+    left: 110px;
+    margin-bottom: 10%;
+}
+
+.right-div-one-mirror{
+    position: relative;
+    top: 15px;
+}
+
+.left-div-one-mirror{
+    background: linear-gradient(rgba(13, 240, 229, 0.6), rgba(13, 240, 229, 0.6)), url("Images/Website\ 1.png");
+    background-position: center;
+    background-size: cover;
+    height: 327px;
+    width: 700px;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+.left-div-one-mirror:hover{
+    background: linear-gradient(rgba(218, 19, 19, 0), rgba(218, 19, 19, 0)), url("Images/Website\ 1.png");
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(13, 240, 228);
+    cursor: pointer;
+}
+
+.right-div-one-mirror h5{
+    color: rgb(13, 240, 228);
+    text-align: right;
+    position: relative;
+    right: 200px;
+    font-size: 15px;
+    font-family: 'Space Mono', monospace;
+
+}
+
+.right-div-one-mirror h1{
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    padding: 15px;
+    position: relative;
+    left: 35px;
+}
+
+.interior-text-div-mirror p{
+    color: white;
+    font-family: 'Space Mono', monospace;
+    width: 85%;
+    height: 85%;
+}
+
+.interior-text-div-mirror{
+    height: 150px;
+    width: 400px;
+    background-color: rgb(32, 32, 36);
+    position: relative;
+    left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interior-text-div-list-mirror ul{
+    display: flex;
+    position: relative;
+    left: 35px;
+}
+
+.interior-icon-div-mirror ul{
+    display: flex;
+    position: relative;
+    left: 35px;
+}
+
+.interior-text-div-list-mirror ul li{
+    list-style: none;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    padding: 5px 15px;
+}
+
+.interior-icon-div-mirror ul li{
+    list-style: none;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    padding: 5px 15px;
+}
+/*code break*/
+.left-div-one-2{
+    background: linear-gradient(rgba(13, 240, 229, 0.6), rgba(13, 240, 229, 0.6)), url("Images/grabamindful.png");
+    background-position: center;
+    background-size: cover;
+    height: 327px;
+    width: 700px;
+    border: 1px solid white;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.left-div-one-2:hover{
+    background: linear-gradient(rgba(218, 19, 19, 0), rgba(218, 19, 19, 0)), url("Images/grabamindful.png");
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(13, 240, 228);
+    cursor: pointer;
+}
+/*code break*/
+.left-div-one-mirror-2{
+    background: linear-gradient(rgba(13, 240, 229, 0.6), rgba(13, 240, 229, 0.6)), url("Images/barnesgrxph.png");
+    background-position: center;
+    background-size: cover;
+    height: 327px;
+    width: 700px;
+    border: 1px solid white;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.left-div-one-mirror-2:hover{
+    background: linear-gradient(rgba(218, 19, 19, 0), rgba(218, 19, 19, 0)), url("Images/barnesgrxph.png");
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(13, 240, 228);
+    cursor: pointer;
+}
+
+.show-more-div{
+    display: flex;
+    justify-content: center;
+}
+
+.show-more{
+    color: rgb(13, 240, 228);
+    border: 1px solid rgb(13, 240, 228);
+    font-family: 'Space Mono', monospace; 
+    padding: 15px 18px;
+    margin-top: 3%;
+    border-radius: 4px;
+}
+/*built section end*/
+
+/*contact section start*/
+.contact-section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+}
+
+.contact-section h2{
+    color: rgb(13, 240, 228);
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+}
+
+.contact-section h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Space Mono', monospace; 
+}
+
+.contact-section p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-section a{
+    color: rgb(13, 240, 228);
+    border: 1px solid rgb(13, 240, 228);
+    font-family: 'Space Mono', monospace; 
+    padding: 15px 18px;
+    margin-top: 3%;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.contact-section a:hover, .show-more:hover{
+    color: rgb(13, 240, 228);
+    border: 1px solid rgb(13, 240, 228);
+    font-family: 'Space Mono', monospace; 
+    padding: 15px 18px;
+    margin-top: 3%;
+    border-radius: 4px;
+    background-color: rgba(13, 240, 229, 0.1);
+    cursor: pointer;
+}
+
+.footer{
+    position: relative;
+    top: 170px;
+    color: rgb(13, 240, 228);
+    font-family: 'Space Mono', monospace;
+}
+/*contact section end*/
